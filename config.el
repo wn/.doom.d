@@ -38,7 +38,4 @@
 
 (setq python-shell-completion-native-disabled-interpreters '("python"))
 
-(add-hook 'python-mode-hook #'+format|enable-on-save)
-(add-hook 'cc-mode-hook #'+format|enable-on-save)
-(setq auto-save-visited-interval 2)
 (auto-save-visited-mode +1)
